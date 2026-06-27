@@ -1,4 +1,4 @@
-pymobiledevice3
+pymobiledevice3<5.0.0
 PyQt5
 pyqtdarktheme==2.1.0
 pyinstaller
