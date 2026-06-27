@@ -17,7 +17,7 @@ class Device:
             return True, False
         if (parsed_ver == Version("18.2") and self.build in ["22C5109p", "22C5125e", "22C5131e"]):
             return True, False
-        if (parsed_ver == Version("18.2")) or (parsed_ver > Version("18.2")):
+        if (parsed_ver == Version("18.2")) or (parsed_ver > Version("18.2")) and (parsed_ver < Version("27.0")):
             return True, True
         return False, False
 
